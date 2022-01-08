@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial;
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#topbar {
+    min-width: 1000px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+#topbar-label {
+    float: left;
+    background-color: rgba(50, 80, 100, 0.5);
+    width: 400px;
+    height: 90px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#topbar-label-name {
+    color: white;
+    font-size: 20px;
+    height: 90px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.topbar-item {
+    float: left;
+    background-color: rgba(50, 80, 100, 0.5);
+    width: 90px;
+    height: 90px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 2px;
+    transition: 0.5s;
+}
+
+.topbar-item-name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar-item-icon {
+    width: 30px;
+    margin: 30px 30px;
+}
+
+.topbar-item:hover {
+    margin-top: 20px;
+}
+
+.section {
+    overflow: hidden;
+    min-width: 600px;
+    background-color: rgba(130, 180, 220, 0.6);
+    padding: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 120px;
+}
+
+.section-title {
+    color: white;
+}
+
+#overview-paragraphs {
+    float: left;
+    color:white;
+    font-size: 20px;
+    width: calc(100% - 320px);
+    word-break: break-all;
+}
+
+#my-picture {
+    float: right;
+    width: 300px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.project {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 10px;
+    height: 650px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.project-title {
+    color: rgb(50, 80, 100);
+}
+
+.project-image {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.project-paragraph {
+    color: rgb(50, 100, 150);
+    font-size: 20px;
+    word-break: break-all;
+    height: 240px;
+}
+
+.project-button {
+    float: right;
+    background-color: rgba(50, 80, 100, 0.8);
+    color: white;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0);
+    padding: 10px 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.project-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 17px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 2000px) {
+    .column {
+    width: 50%;
+    }
+}
+  
+@media screen and (max-width: 1200px) {
+    .column {
+    width: 100%;
+    }
+}
+
+#about-section {
+    background-color: rgba(50, 80, 100, 0.5);
+    padding: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#about-section-text {
+    color: white;
+    text-align: center;
+}

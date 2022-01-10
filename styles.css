@@ -27,7 +27,7 @@ body {
     border-bottom-left-radius: 5px;
 }
 
-#topbar-label-name {
+#topbar-label-text {
     color: white;
     font-size: 20px;
     height: 90px;
@@ -49,7 +49,7 @@ body {
     transition: 0.5s;
 }
 
-.topbar-item-name {
+.topbar-item-text {
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -84,17 +84,17 @@ body {
     color: white;
 }
 
-#overview-paragraphs {
+#overview-text {
     float: left;
     color:white;
     font-size: 20px;
     width: calc(100% - 320px);
-    word-break: break-all;
+    word-wrap: break-word;
 }
 
 #my-picture {
     float: right;
-    width: 300px;
+    width: 250px;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 5px;
@@ -132,10 +132,10 @@ body {
     opacity: 0.6;
 }
 
-.project-paragraph {
+.project-text {
     color: rgb(50, 100, 150);
     font-size: 20px;
-    word-break: break-all;
+    word-wrap: break-word;
     height: 240px;
 }
 

@@ -5,8 +5,8 @@
 body {
     font-family: Arial;
     background-image: url("assets/background.jpg");
-    background-size: cover;
     background-attachment: fixed;
+    background-position: 50% 0%;
 }
 
 #topbar {
@@ -115,7 +115,7 @@ body {
 .project {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 10px 10px;
-    height: 650px;
+    height: 575px;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 5px;
@@ -138,7 +138,7 @@ body {
     color: rgb(50, 80, 100);
     font-size: 20px;
     word-wrap: break-word;
-    height: 240px;
+    height: 200px;
 }
 
 .project-button {

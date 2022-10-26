@@ -5,8 +5,8 @@
 body {
     font-family: Arial;
     background-image: url("assets/background.jpg");
-    background-attachment: fixed;
     background-size: cover;
+    background-attachment: fixed;
     background-position: 50% 0%;
 }
 

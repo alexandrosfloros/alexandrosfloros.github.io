@@ -161,11 +161,17 @@ body {
 
 @media screen and (max-width: 1975px) {
     .column {
-    width: 50%;
+    width: 33.33%;
     }
 }
   
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1550px) {
+    .column {
+    width: 50%;
+    }
+}
+
+@media screen and (max-width: 1125px) {
     .column {
     width: 100%;
     }

@@ -1,32 +1,93 @@
-<DOCTYPE html>
-    <html lang = "en">
-        <head>
-            <link rel = "stylesheet" href = "styles.css">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Alexandros Floros - Engineer and researcher, specializing in machine learning, data science, and software development.">
+
+        <title>
+            Alexandros Floros
+        </title>
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Alexandros Floros",
+                "url": "https://alexandrosfloros.com",
+                "image": "https://alexandrosfloros.com/assets/picture.jpg",
+                "jobTitle": ["Engineer", "Researcher"],
+                "description": "Engineer and researcher, specializing in machine learning, data science, and software development.",
+                "birthDate": "2001",
+                "birthPlace": {
+                    "@type": "Place",
+                    "name": "Athens, Greece"
+                },
+                "nationality": "Greek",
+                "alumniOf": [
+                    {
+                        "@type": "EducationalOrganization",
+                        "name": "University of Edinburgh",
+                        "sameAs": "https://www.ed.ac.uk/"
+                    },
+                    {
+                        "@type": "EducationalOrganization",
+                        "name": "University of Bristol",
+                        "sameAs": "https://www.bristol.ac.uk/"
+                    }
+                ],
+                "sameAs": [
+                "https://www.linkedin.com/in/alexandrosfloros"
+                ]
+            }
+        </script>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div id="topbar">
+            <span id="topbar-label">
+                <span id="topbar-label-text">
+                    Alexandros Floros
+                </span>
+            </span>
+
+            <a href="https://drive.google.com/file/d/12L570Z50ppY7lAGkmQlUCBPjVC8vzPk_/view?usp=sharing" target="_blank">
+                <span class="topbar-item">
+                    <span class="topbar-item-text">
+                        CV
+                    </span>
+                </span>
+            </a>
             
-            <title>Alexandros Floros</title>
+            <a href="mailto:alexandfloros@gmail.com">
+                <span class="topbar-item">
+                    <img class="topbar-item-icon" id="email-icon" src="assets/email-icon.png">
+                </span>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/alexandrosfloros" target="_blank">
+                <span class="topbar-item">
+                    <img class="topbar-item-icon" id="linkedin-icon" src="assets/linkedin-icon.png">
+                </span>
+            </a>
+            
+            <!-- <a href="https://github.com/" target="_blank">
+                <span class="topbar-item">
+                    <img class="topbar-item-icon" id="github-icon" src="assets/github-icon.png">
+                </span>
+            </a> -->
+        </div>
 
-            <meta name = "description" content = "Engineer and researcher, specializing in machine learning, data science, and software development.">
-        </head>
-
-        <body>
-            <div id = "topbar">
-                <span id = "topbar-label"><span id = "topbar-label-text">Alexandros Floros</span></span>
-
-                <a href = "https://drive.google.com/file/d/12L570Z50ppY7lAGkmQlUCBPjVC8vzPk_/view?usp=sharing" target = "_blank"><span class = "topbar-item"><span class = "topbar-item-text">CV</span></span></a>
-                <a href = "mailto: alexandfloros@gmail.com"><span class = "topbar-item"><img class = "topbar-item-icon" id = "email-icon" src = "assets/email-icon.png"></span></a>
-                <a href = "https://www.linkedin.com/in/alexandrosfloros" target = "_blank"><span class = "topbar-item"><img class = "topbar-item-icon" id = "linkedin-icon" src = "assets/linkedin-icon.png"></span></a>
-                <!-- <a href = "https://github.com/" target = "_blank"><span class = "topbar-item"><img class = "topbar-item-icon" id = "github-icon" src = "assets/github-icon.png"></span></a> -->
+        <div class="section">
+            <h1 class="section-title">About</h1>
+            
+            <div id="overview-text">
+                <p>Alex is an engineer and researcher, specializing in machine learning, data science, and software development. He holds an MSc in Artificial Intelligence from the University of Edinburgh and an MEng in Electrical & Electronic Engineering from the University of Bristol. His work in AI primarily focuses on computer vision and natural language processing.</p>
+                    
+                <p>During his time at Edinburgh, Alex implemented and developed novel self-supervised auxiliary tasks to enhance vision transformer models in low-data environments. Previously, at Bristol, he worked with generative adversarial networks to improve the video compression efficiency of state-of-the-art standards. Around this period, his interests were particularly aligned with signal processing and mobile communications. He also interned with researchers working on object detection models for robotics. More details can be found in his CV at the top of this page.</p>
             </div>
-
-            <div class = "section">
-                <h1 class = "section-title">About</h1>
-                
-                <div id = "overview-text">
-                    <p>Alex is an engineer and researcher, specializing in machine learning, data science, and software development. He holds an MSc in Artificial Intelligence from the University of Edinburgh and an MEng in Electrical & Electronic Engineering from the University of Bristol. His work in AI primarily focuses on computer vision and natural language processing.</p>
-                        
-                    <p>During his time at Edinburgh, Alex implemented and developed novel self-supervised auxiliary tasks to enhance vision transformer models in low-data environments. Previously, at Bristol, he worked with generative adversarial networks to improve the video compression efficiency of state-of-the-art standards. Around this period, his interests were particularly aligned with signal processing and mobile communications. He also interned with researchers working on object detection models for robotics. More details can be found in his CV at the top of this page.</p>
-                </div>
-                
-                <img id = "my-picture" src = "assets/picture.jpg">
-            </div>
-        </body>
+            
+            <img id="my-picture" src="assets/picture.jpg" alt="Alexandros Floros">
+        </div>
+    </body>
+</html>
